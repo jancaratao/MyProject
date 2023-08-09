@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-08T17:55:17 PST" name="Suite" finished-at="2023-08-08T17:55:44 PST" duration-ms="26091">
+  <suite started-at="2023-08-09T15:33:18 PST" name="Suite" finished-at="2023-08-09T15:34:30 PST" duration-ms="72281">
     <groups>
       <group name="Sanity">
         <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
@@ -13,9 +13,9 @@
         <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-08-08T17:55:17 PST" name="End to End Test" finished-at="2023-08-08T17:55:44 PST" duration-ms="26091">
+    <test started-at="2023-08-09T15:33:18 PST" name="End to End Test" finished-at="2023-08-09T15:34:30 PST" duration-ms="72281">
       <class name="com.mystore.testcases.IndexPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-08T17:55:33 PST" name="setup" finished-at="2023-08-08T17:55:38 PST" duration-ms="4598" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-09T15:34:11 PST" name="setup" finished-at="2023-08-09T15:34:18 PST" duration-ms="6769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-08T17:55:38 PST" name="verifyLogo" finished-at="2023-08-08T17:55:38 PST" duration-ms="75" status="PASS">
+        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-09T15:34:18 PST" name="verifyLogo" finished-at="2023-08-09T15:34:18 PST" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-08T17:55:38 PST" name="tearDown" finished-at="2023-08-08T17:55:39 PST" duration-ms="451" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-09T15:34:18 PST" name="tearDown" finished-at="2023-08-09T15:34:18 PST" duration-ms="506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-08T17:55:39 PST" name="setup" finished-at="2023-08-08T17:55:43 PST" duration-ms="4460" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-09T15:34:18 PST" name="setup" finished-at="2023-08-09T15:34:30 PST" duration-ms="11382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,21 +45,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-08T17:55:43 PST" name="verifyTitle" finished-at="2023-08-08T17:55:43 PST" duration-ms="25" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-09T15:34:30 PST" name="verifyTitle" finished-at="2023-08-09T15:34:30 PST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-08T17:55:43 PST" name="tearDown" finished-at="2023-08-08T17:55:44 PST" duration-ms="480" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@247310d0]" started-at="2023-08-09T15:34:30 PST" name="tearDown" finished-at="2023-08-09T15:34:30 PST" duration-ms="499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.IndexPageTest -->
       <class name="com.mystore.testcases.LoginPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-08T17:55:17 PST" name="loadConfig" finished-at="2023-08-08T17:55:17 PST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-09T15:33:18 PST" name="loadConfig" finished-at="2023-08-09T15:33:18 PST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-08T17:55:18 PST" name="setup" finished-at="2023-08-08T17:55:24 PST" duration-ms="5587" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-09T15:33:19 PST" name="setup" finished-at="2023-08-09T15:33:56 PST" duration-ms="37145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-08T17:55:24 PST" name="loginTest" data-provider="credentials" finished-at="2023-08-08T17:55:32 PST" duration-ms="8611" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-09T15:33:56 PST" name="loginTest" data-provider="credentials" finished-at="2023-08-09T15:34:10 PST" duration-ms="13905" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -128,11 +128,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-08T17:55:33 PST" name="tearDown" finished-at="2023-08-08T17:55:33 PST" duration-ms="665" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-09T15:34:10 PST" name="tearDown" finished-at="2023-08-09T15:34:11 PST" duration-ms="740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-08T17:55:44 PST" name="afterSuite" finished-at="2023-08-08T17:55:44 PST" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcases.LoginPageTest@8462f31]" started-at="2023-08-09T15:34:30 PST" name="afterSuite" finished-at="2023-08-09T15:34:31 PST" duration-ms="504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

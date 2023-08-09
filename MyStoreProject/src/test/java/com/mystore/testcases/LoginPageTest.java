@@ -38,7 +38,7 @@ public class LoginPageTest extends BaseClass{
 		//indexPage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		indexPage = loginPage.login(uname, pswd);
 		String actualURL = indexPage.getCurrURL();
-		String expectedURL = "https://magento.softwaretestingboard.com/1";
+		String expectedURL = "https://magento.softwaretestingboard.com/";
 		Log.info("Verify whether user is able to login successfully");
 		Assert.assertEquals(actualURL, expectedURL);
 		Log.info("Login is successful");
