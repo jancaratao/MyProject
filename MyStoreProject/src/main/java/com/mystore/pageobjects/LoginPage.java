@@ -36,6 +36,7 @@ public class LoginPage extends BaseClass {
 		action.type(password, pswd);
 		action.implicitWait(getDriver(), 20);
 		action.fluentWait(null, signInBtn, 10);
+		action.pause(5000);
 		action.click(getDriver(), signInBtn);
 		action.pause(5000);
 		return new IndexPage();
